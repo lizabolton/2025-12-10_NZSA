@@ -4,12 +4,11 @@
 
 // fonts
 @import 'https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap';
-@import 'https://fonts.googleapis.com/css2?family=Lato&display=swap';
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap';
 
-$font-family-sans-serif: "Quicksand", sans-serif;
-$presentation-heading-color: #474972;
-$presentation-title-slide-text-align: "left";
+$font-family-sans-serif: "Lato", sans-serif;
+$presentation-heading-color: #00caef;
+$presentation-title-slide-text-align: "center";
 $presentation-subtitle-slide-text-align: "left";
 $code-block-font-size: 0.6em;
 $code-color: #808080;
@@ -17,28 +16,32 @@ $presentation-h2-font-size: 1.4em;
 
 /*-- scss:rules --*/
 
-.reveal-header .header-logo {
-  position: absolute;
-  top: -15px;
-}
-
 .reveal .title {
-  color: #474972;
-  font-size: 3em;
+  font-family: Lato;
+  font-size: 0.05em;
+  color: white;
+  position: absolute;
+  top: -500px;
+  padding: 10px;
 }
 
 .reveal .subtitle {
-  color: #474972;
-  font-size: 2em;
-  top: -300px;
+  font-family: Lato;
+  text-align: left;
+  font-size: 80pt;
 }
 
-.reveal .author {
-  font-size: 1.4em;
+
+.reveal .custom-author {
+position: absolute;
+  font-size: 50em;
+  text-align: right;
+  right: 20px;
+  top: 300px;
 }
 
 .reveal .custom-twitter a {
-  position: absolute;
+position: absolute;
   color: #1DA1F2;
   font-size: 1.3em;
   text-align: right;
@@ -47,8 +50,8 @@ $presentation-h2-font-size: 1.4em;
 }
 
 .reveal .custom-url a {
-  position: absolute;
-  color: #474972;
+position: absolute;
+  color: #E20317;
   font-size: 1.5em;
   text-align: right;
   right: 20px;
@@ -60,11 +63,11 @@ details>summary {
 }
 
 .small {
-  font-size: 0.75em;
+font-size: 0.75em;
 }
 
 .reveal .slide .in-out {
-  margin-top: 0.5em;
+margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
@@ -76,7 +79,7 @@ details>summary {
 
 
 .reveal .slide .goal {
-  margin-top: 0.5em;
+margin-top: 0.5em;
   margin-bottom: 0.5em;
   padding-top: 0.1em;
   padding-bottom: 0.1em;
@@ -95,16 +98,12 @@ details>summary {
 }
 
 [contenteditable]:focus {
-	outline: 1px solid #bbb;
+  outline: 1px solid #bbb;
   outline-offset: 10px;
   transition: outline-offset 0.5s linear;
 }
 
 .xe-editable_is-editing.remark-container.remark-presenter-mode.remark-pause-mode .remark-pause,
 .xe-editable_is-editing.remark-container.remark-presenter-mode.remark-pause-mode .remark-backdrop {
- display: none;
-}
-
-.reveal small {
-    font-size: 0.5em; /* Adjust the size as needed */
+display: none;
 }
