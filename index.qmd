@@ -228,18 +228,19 @@ You don't need to overhaul your entire approach tomorrow. Start small:
 :::
 :::
 
----
+## Jingdi's literature review on assessment practices {visibility="uncounted"}
 
 {{< pdf pdf/assessment-synthesis-review.pdf width=100% height=900 >}}
 
----
+## Christy's report on teaching practices {visibility="uncounted"}
 
 {{< pdf pdf/teaching-strategies.pdf width=100% height=900 >}}
 
----
+## Ping's resources for supporting TAs {visibility="uncounted"}
 
 {{< pdf pdf/colour_traffic_light_poster.pdf width=100% height=900 >}}
----
+
+## Ping's resources for supporting TAs (rationale) {visibility="uncounted"}
 
 {{< pdf pdf/poster_rationale.pdf width=100% height=900 >}}
 
