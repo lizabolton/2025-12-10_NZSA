@@ -20,164 +20,239 @@ title-slide-attributes:
 ## Get these slides 📱
 
 ```{r, echo = F, fig.align='center'}
-plot(qrcode::qr_code("https://lizabolton.github.io/2025-09-11_ELL-dept-symposium/#/title-slide"))
+plot(qrcode::qr_code("https://lizabolton.github.io/2025-12-10_NZSA/#/title-slide"))
 ```
-
 🔗 You can also access these through: [link.lizabolton.com](https://link.lizabolton.com/) 
 
 For accessibility, there is alt text available for some images at the end.
 
----
+
+## Bonjour, kia ora, 你好 (안녕, こんにちは)
 
 ::: columns
-
-::: {.column width="40%"}
-![Art credit: FanaticB on Redbubble, song lyric from "Tribute" by Tenacious D](img/tribute.png)
-:::
-
 ::: {.column width="60%"}
-**Goal**: *Explore how support for ELL students can be integrated at various scales — from small modifications to teaching practices to large changes in assessment and design. Opportunities will be illustrated across junior and senior undergraduate statistics and data science courses in Canada, Aotearoa New Zealand and China.*
+The teaching and research that informs this paper were conducted on the traditional lands of **Ngāti Whātua Ōrākei**, under te Tiriti o Waitangi, at *Waipapa Taumata Rau*, and of the **Anishinaabe**, the **Haudenosaunee** and the **Mississaugas of the Credit**, under the Dish with One Spoon treaty and, more recently, Treaty 13 between the Mississaugas and the British Crown, at the *University of Toronto*. 
 
-**Outputs**: ICOTS presentation in Brisbane next year + peer reviewed conference paper (due later this year); NZSA(?); + RA led work (TBD)
+Additional teaching and learning experiences at *Southwest University*, China, also informed this work. 
 
-So for now, this in an *early* invitation to discuss challenges and opportunities you have faced and would like to share or seek support in.
+It is being presented here in Ōtākou, where **Ngāi Tahu** has rangatiratanga. 
 :::
-
-:::
-
-## Positionality statement
-
-::: columns
 
 ::: {.column width="40%"}
 ![Original photo credit: Heidi Martin Photography](img/liza8bit.png){width=100%}
 :::
-
-::: {.column width="60%"}
-Bonjour, kia ora, 你好 (안녕, こんにちは)
-
-<br>
-English is the first language I learned, and it is the one I am most fluent in. I have never had my personal success, safety or access to resources rely on my abilities in another language. Many of you have first-hand experience with learning English as an additional language, that I don't.
-
-<br>
-Language is not 'just' a skill — it is part of culture, identity and how we know others and make ourselves known in turn.
 :::
 
-:::
-
+---
 
 ## ELLs are not a monolith
 
 ::: columns
 
 ::: {.column width="40%"}
-![8-bit Tower of Babel?](img/babel.png)
-
+![](img/babel.png)
 :::
 
 ::: {.column width="60%"}
 
-👩🏻‍🎓 ELL = English Language Learner. You may be familiar with EAL (English as an Additional Language) or ESOL (English for Speakers of Other Languages).
+👩🏻🎓 ELL = English Language Learner. You may be familiar with EAL (English as an Additional Language) or ESOL (English for Speakers of Other Languages). **Multilingual learners** may become a preferred term. 
 
 🈶 The majority of the ELL students I have taught have Chinese backgrounds (University of Toronto, University of Auckland, teaching at Southwest University 西南大学).
 
 💰 This project is funded out of the money related to teaching into our Transnational Education Agreement programme with Southwest University 西南大学.
+:::
 
 :::
 
-::: 
-
-
-## ELL support at UofT vs WTR
-
-![](img/map.png){fig-align="center"}
-
-::: {.notes}
-'Mega' Faculty of Arts & Science
-:::
 
 ---
 
-{{< pdf pdf/jingdi.pdf width=100% height=900 >}}
+## Why this matters now
 
----
+* **Global mobility:** English is the *lingua franca* of academia, but our classrooms are linguistically diverse[^1].
+* **Challenge:** Students often pass technical language exams (like IELTS/TOEFL) but struggle with the specific communicative demands of *doing* statistics[^2].
+* **Opportunity:** Supporting ELLs isn't just about "fixing" deficits; it's about better teaching for *everyone*.
 
-{{< pdf pdf/christy.pdf width=100% height=900 >}}
+[^1]: Altbach, P. G., et al. (2009). *Trends in global higher education: Tracking an academic revolution.* UNESCO.
+[^2]: Cheng, Y., & Hamid, M. O. (2025). Social impact of Gaokao in China. *Language Testing in Asia*.
 
----
+# Part 1: Teaching practices
+*Small changes*
 
-{{< pdf pdf/lab_w11_task.html width=100% height=900 >}}
-
----
-
-{{< pdf pdf/ping.pdf width=100% height=900 >}}
-
-
-# Some other ideas
-
-## 🤔 Think 👯 Pair 🗣️ Share
-
-- In this classroom strategy, you present students with a task or question and then they work through three phases: thinking, pairing and finally sharing. 
-
-- The sharing can be out loud in the class, but I really like to pair the speaking ‘pairing’ phase with an anonymous written ‘sharing’ phase using an app like Anna’s Stats App to reduce embarrassment. 
+## The power of pausing
 
 ::: columns
+::: {.column width="60%"}
+* **Myth:** "If... I... just... speak... slowly... they... will... understand."
+    * *Reality:* This distorts natural rhythm and hinders learning[^3].
+* **Suggestion:** Speak at a natural pace, but insert **strategic pauses** at grammatical boundaries (commas, periods).
+    * **1-3 seconds** is often all it takes[^4].
+* Give the "Cognitive Cycle" time to spin: 1.  Hear  $\rightarrow$ Translate $\rightarrow$ Formulate answer $\rightarrow$ Translate[^5].
+:::
+::: {.column width="40%"}
+![](img/pause.png)
+:::
+:::
 
-::: {.column width="50%"}
+[^3]: Hayati, A. (2010). The Effect of Speech Rate on Listening Comprehension. *Creative Education*.
+[^4]: Blau, E. K. (1990). The effect of pauses on listening comprehension. *TESOL Quarterly*.
+[^5]: Lesser, L. M., & Winsor, M. S. (2009). English language learners in introductory statistics. *Statistics Education Research Journal*.
+
+## Instructions: Double double, less toil and trouble
+
+::: columns
+::: {.column width="60%"}
+* **Challenge**: Spoken instructions vanish into thin air.
+    * If a student misses one word, they might miss the whole task.
+* **Suggestion:** Provide instructions in **two modes**:
+    1.  **Spoken**
+    2.  **Written** (slides, handouts, annotation or board)
+* **Tip:** Even for simple multiple-choice questions, visually indicate the correct answer (don't just say it).
+:::
+::: {.column width="40%"}
+![](img/double-vision.png)
+
+:::
+:::
+
+## Navigating shared languages
+
+* **Translanguaging:** Using one's *entire* linguistic repertoire to make meaning[^6].
+* **Tension:**
+    * Students may want to discuss concepts in their first/more fluent language (L1).
+    * *However*, our assessments are usually in English.
+    * *Challenge:* Instructors (even bilingual ones) often lack the *technical* vocab in L1 (e.g., "Heteroscedasticity").
+* **Suggestions:**
+    * Use shared languages for encouragement.
+    * Move to English for **content** to prepare for assessment.
+    * Work with your tutors to make sure they have support and guidance. 
+
+
+[^6]: García, O. (2009). *Bilingual Education in the 21st Century: A Global Perspective.* Wiley-Blackwell.
+
+# Part 2: Assessment
+*Design for fairness, not just testing.*
+
+## Context comfort
+
+::: columns
+::: {.column width="60%"}
+* **Challenge:** Real data contexts enhance engagement and learning[^7], but may rely on cultural knowledge (e.g., sports).
+* **Risk:** We test cultural knowledge, not statistical ability.
+* **Immerse!:**
+    * Introduce test/exam contexts in a low-stakes setting first (class, lab, tutorial, untimed assessment).
+    * Let students explore the data dictionary *before* the clock starts ticking[^8].
+:::
+::: {.column width="40%"}
+![](img/immerse.png)
+:::
+:::
+
+[^7]: Carver, R., et al. (2016). *GAISE College Report 2016.* American Statistical Association.
+[^8]: Fergusson, A., & Pfannkuch, M. (2022). Introducing high school statistics teachers to predictive modelling. *Statistics Education Research Journal*.
+
+# Part 3: Course design
+*Building supportive structures.*
+
+## Communication workshops
+
+::: columns
+::: {.column width="60%"}
+* **Challenge:** Lexical ambiguity in statistics is hard (e.g., "Random", "Significant", "Confidence")[^9].
+* **Suggestion:**
+    * Dedicate workshop time to **decoding instructions**.
+    * Teach "Hedging" language (e.g., "The data *suggests*..." vs "This *proves*...")[^10].
+* **Implementation:** At the University of Toronto, the Faculty English Language Learner support team had funding to train TAs to run communication-focused workshops alongside technical ones.
+:::
+::: {.column width="40%"}
+![](img/tools.png)
+:::
+:::
+
+[^9]: Whitaker, D. (2016). Lexical Ambiguities in the Vocabulary of Statistics. *International Journal for Mathematics Teaching and Learning*.
+[^10]: Wishnoff, J. R. (2000). Hedging Your Bets. *Second Language Studies*.
+
+## Example: "Think-Pair-Share" in action
+
+::: columns
+::: {.column width="60%"}
+*I used this in a Senior Data Science course in China.*
+
+
+1.  **Think (1 min):** Silence. Display the question text. Allow processing time.
+2.  **Pair (2 min):** Discuss with a neighbor. Low stakes. Test logic in L1 or English.
+3.  **Share (2 min):** Use **anonymous** polling software (e.g., PollEverywhere).
+
+
+
+
+*Result:* Engagement went from near-zero to **50-70%**.
+:::
+
+::: {.column width="40%"}
+![](img/think-pair-share.png)
 
 :::
 
-::: {.column width="50%"}
+:::
+
+# Summary
+
+## Next steps
+
+::: columns
+::: {.column width="60%"}
+We have received a te Whare Pūtaiao Faculty of Science Scholarship of Teaching and Learning grant to help us learn more from our students — watch this space!
+:::
+
+::: {.column width="40%"}
+![](img/steps.png)
 :::
 
 :::
 
-## Supporting spoken instructions with written/visual prompts
+## Takeaways
 
-- This is an example of one (of the many!) reasons doing peer observations of teaching is helpful. If I found I was missing or not fully hearing instructions during an activity, it seems reasonable to expect students will too. 
+::: columns
+::: {.column width="60%"}
+You don't need to overhaul your entire approach tomorrow. Start small:
 
-- Not only does this support ELL students, but it can also support students with auditory processing issues or executive function/focus challenges. *Multi-support win!* 🏅 
+1.  **Pause** more.
+2.  **Write down** what you say, especially for activity instructions.
+3.  **Immerse** students in a context before testing them with it.
 
-- ⏎🔥 Backfire: teaching at SWU, this meant students just put the questions in an LLM chat bot and submitted the answer from DeepSeek 😭.
-
-## Creating glossaries/cheat sheets as an assessment task
-
-- In recent years, it has been more common to hear student feedback at class rep meetings about wanting teacher provided glossaries and summary sheets.
-- Perhaps many of our students haven't learned how to learn.
-- In this strategy, students are tasked with creating the desired outputs, and provided appropriate support, as part of an assessment.
-- This strategy explicitly incentivises learning practices that also support language acquisition and academic success.
+*English Language Learners contribute to the diversity, excellence, and sustainability of our field.*
+:::
+::: {.column width="40%"}
+![](img/takeaway.png)
+:::
+:::
 
 ---
 
-### STATS 330 example
-
-{{< pdf pdf/STATS330_assignment-3_task.html width=100% height=900 >}}
+{{< pdf pdf/assessment-synthesis-review.pdf width=100% height=900 >}}
 
 ---
 
-### STA303 example (University of Toronto)
+{{< pdf pdf/teaching-strategies.pdf width=100% height=900 >}}
 
-[Direct link](https://sta303-bolton.github.io/sta303-w22-courseguide/knowledge-basket-other.html#linear-mixed-models-study-guide)
+---
 
-## References {visibility="uncounted"}
+{{< pdf pdf/colour_traffic_light_poster.pdf width=100% height=900 >}}
+---
 
-Please see each RA's slide for their specific references.
-
-### Images
-Unless otherwise stated, all images were created with Gemini 2.5.
-
-*This Is Not The Greatest Song In The World This Is Just A Tribute Kids T-Shirt*. [Image]. Designed and sold by FanaticB. https://www.redbubble.com/i/kids-t-shirt/This-Is-Not-The-Greatest-Song-In-The-World-This-Is-Just-A-Tribute-by-FanaticB/164147311.MZ153
+{{< pdf pdf/poster_rationale.pdf width=100% height=900 >}}
 
 # Alt text {visibility="uncounted"}
 
+Unless otherwise stated, all images were created with Gemini 2.5. The following slides include text descriptions of the images. All images can be considered decorative.
+
 ## Title page {visibility="uncounted"}
+
 An 8-bit style presentation slide with the title "Talk data to me?". Two 8-bit characters, one with black hair and a red shirt on the left, and another with brown hair and a purple shirt on the right, stand on either side of a dark blue and light blue 8-bit wave design. The wave swaps direction between the two in a simple animation, as their mouths open and close. Below the wave, the text reads "Supporting English Language Learners in Statistics and Data Science" followed by a list of names under "Liza Bolton, Ping Huang, Christy Sun, Jingdi Sun with collaborators at the University of Toronto: Nathalie Moon, Samantha-Jo Caetano, J. Sparks, Quin Xie".
 
-## Slide 3 {visibility="uncounted"}
 
-A graphic featuring an acoustic guitar surrounded by red roses and black decorative swirls. The text at the top reads "THIS IS NOT THE GREATEST SONG IN THE WORLD." Below the guitar, the text continues "THIS IS JUST A TRIBUTE." The overall style is illustrative with a vintage feel, and the phrase "FanaticB" is in small text at the bottom right.
-
-## Positionality statement {visibility="uncounted"}
+## Bonjour, kia ora, 你好 (안녕, こんにちは) {visibility="uncounted"}
 
 An 8-bit pixel art character with brown wavy hair and a light blue striped shirt sits in a chair, holding a white paper. Behind them is a bookshelf with colourful books and a Halloween pumpkin bucket. The character has an open mouth as if speaking.
 
@@ -185,6 +260,25 @@ An 8-bit pixel art character with brown wavy hair and a light blue striped shirt
 
 An 8-bit image of a spiralling tower with many levels, aiming to represent the Tower of Babel.
 
-## ELL support at UofT vs WTR {visibility="uncounted"}
+## The power of pausing {visibility="uncounted"}
 
-An 8-bit pixel image of a map of the world.
+An 8-bit pixel art image of an hour glass floating in space with planets and stars in the background.
+
+## Instructions: Double double, less toil and trouble {visibility="uncounted"}
+
+An 8-bit pixel art image of a pair of brown eye glasses, with the left lens reflecting writing in a book and the right lens reflecting a person with speech bubbles.
+
+## Context comfort {visibility="uncounted"}
+
+An 8-bit pixel art image of a smiling person mostly submersed in a hot spring pool. 
+
+## Communication workshops {visibility="uncounted"}
+
+An 8-bit pixel art image of an open red tool box with a range of standard tools inside. 
+
+## Next steps {visibility="uncounted"}
+An 8-bit pixel art image of two footprints.
+
+## Takeaways {visibility="uncounted"}
+
+An 8-bit pixel art image of a brown paper bag with some fries and food visible inside.
