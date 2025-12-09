@@ -224,9 +224,17 @@ You don't need to overhaul your entire approach tomorrow. Start small:
 *English Language Learners contribute to the diversity, excellence, and sustainability of our field.*
 :::
 ::: {.column width="40%"}
-![](img/takeaway.png)
+![](img/takeaway.png){width=60% fig-align="center"}
+```{r, echo = F, fig.align='center'}
+plot(qrcode::qr_code("https://lizabolton.github.io/2025-12-10_NZSA/#/title-slide"))
+```
+
+🔗[link.lizabolton.com](https://link.lizabolton.com/) 
 :::
 :::
+
+
+# My marvellous RAs' work {visibility="uncounted"}
 
 ## Jingdi's literature review on assessment practices {visibility="uncounted"}
 
