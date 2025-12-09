@@ -76,7 +76,7 @@ It is being presented here in Ōtākou, where **Ngāi Tahu** has rangatiratanga.
 [^1]: Altbach, P. G., et al. (2009). *Trends in global higher education: Tracking an academic revolution.* UNESCO.
 [^2]: Cheng, Y., & Hamid, M. O. (2025). Social impact of Gaokao in China. *Language Testing in Asia*.
 
-# Part 1: Teaching practices
+# Part 1: Teaching practices {visibility="uncounted"}
 *Small changes*
 
 ## The power of pausing
@@ -130,7 +130,7 @@ It is being presented here in Ōtākou, where **Ngāi Tahu** has rangatiratanga.
 
 [^6]: García, O. (2009). *Bilingual Education in the 21st Century: A Global Perspective.* Wiley-Blackwell.
 
-# Part 2: Assessment
+# Part 2: Assessment {visibility="uncounted"}
 *Design for fairness, not just testing.*
 
 ## Context comfort
@@ -151,7 +151,7 @@ It is being presented here in Ōtākou, where **Ngāi Tahu** has rangatiratanga.
 [^7]: Carver, R., et al. (2016). *GAISE College Report 2016.* American Statistical Association.
 [^8]: Fergusson, A., & Pfannkuch, M. (2022). Introducing high school statistics teachers to predictive modelling. *Statistics Education Research Journal*.
 
-# Part 3: Course design
+# Part 3: Course design {visibility="uncounted"}
 *Building supportive structures.*
 
 ## Communication workshops
@@ -230,19 +230,19 @@ You don't need to overhaul your entire approach tomorrow. Start small:
 
 ## Jingdi's literature review on assessment practices {visibility="uncounted"}
 
-{{< pdf pdf/assessment-synthesis-review.pdf width=100% height=900 >}}
+{{< pdf pdf/assessment-synthesis-review.pdf width=100% height=800 >}}
 
 ## Christy's report on teaching practices {visibility="uncounted"}
 
-{{< pdf pdf/teaching-strategies.pdf width=100% height=900 >}}
+{{< pdf pdf/teaching-strategies.pdf width=100% height=800 >}}
 
 ## Ping's resources for supporting TAs {visibility="uncounted"}
 
-{{< pdf pdf/colour_traffic_light_poster.pdf width=100% height=900 >}}
+{{< pdf pdf/colour_traffic_light_poster.pdf width=100% height=800 >}}
 
 ## Ping's resources for supporting TAs (rationale) {visibility="uncounted"}
 
-{{< pdf pdf/poster_rationale.pdf width=100% height=900 >}}
+{{< pdf pdf/poster_rationale.pdf width=100% height=800 >}}
 
 # Alt text {visibility="uncounted"}
 
